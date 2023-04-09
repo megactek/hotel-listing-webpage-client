@@ -1,0 +1,18 @@
+.form {
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    justify-self: space-between;
+    gap: 5px;
+}
+
+.fields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.fields input {
+    max-width: 140px;
+}
