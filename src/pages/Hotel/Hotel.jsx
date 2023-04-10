@@ -23,13 +23,13 @@ const client = new HotelsClient("http://localhost:8080", null, null);
 const useStyles = makeStyles({
   root: {
     margin: "auto",
-    maxWidth: 500,
+    maxWidth: 800,
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
   },
   media: {
-    height: 200,
+    height: 400,
   },
   amenities: {
     display: "flex",
@@ -74,7 +74,7 @@ const Hotel = () => {
 
   return (
     <>
-      <Container maxWidth="sm">
+      <Container maxWidth="md">
         <Collapse in={Alert}>
           <AL icon={false} severity="success">
             {name + " added to favorite"}

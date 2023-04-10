@@ -47,7 +47,7 @@ const Home = () => {
     });
   };
 
-  const findHotel = (loc) => {
+  const findHotel = () => {
     location.setLocation(hLocation);
     client.getHotels(location, null, (err, res) => {
       if (err) {
